@@ -14,7 +14,8 @@
 
 <body>
 
-   <div id="container"> <!--Inicio Container-->
+   <div id="container">
+      <!--Inicio Container-->
 
       <header>
 
@@ -36,7 +37,72 @@
 
       </header>
 
-   </div><!--Fim Container-->
+      <div id="principal">
+         <!--Área principal-->
+
+         <div id="conteudo"><!--Área conteúdo-->
+            
+            <section id="capa">
+               <img src="imagens/museu.png" alt="foto da entrada do museu" style="border-radius: 2px;">           
+            </section>
+
+         </div><!--Fim área conteúdo-->
+
+         <aside><!--Conteúdo lateral-->
+
+            <section id="depoimento">
+               <img src="imagens/depoimento.png" alt="sobre o museu" style="border-radius: 2px;">
+            </section>
+
+            <section id="visita"> <!--Visita-->
+               <h4>Faça uma visita</h4>
+               
+               <form>
+                  
+                  <fieldset>
+
+                     <legend>Agendamento</legend>
+                     <label for="date">Data:</label>
+                     <input type="date" name="date" id="data">
+
+                     <label for="qtd">Pessoas:</label>
+                     <input type="number" style="width: 30px;" name="pessoas" id="pessoas" value="1">
+
+                  </fieldset>
+               
+                  <input class="botao" type="submit" value="Verificar disponibilidade">
+
+               </form>
+
+            </section> <!--Fim Visita-->
+
+            <section id="galeria">
+
+               <h4>Galeria de fotos</h1>
+
+               <a href="">
+                  <img class="galeria" src="imagens/imagem1.jpg" alt="foto da galeria">
+               </a>
+               <a href="">
+                  <img class="galeria" src="imagens/imagem2.jpg" alt="foto da galeria">
+               </a>
+               <a href="">
+                  <img class="galeria" src="imagens/imagem3.jpg" alt="foto da galeria">
+               </a>
+               <a href="">
+                  <img class="galeria" src="imagens/imagem4.jpg" alt="foto da galeria">
+               </a>
+
+            </section>
+
+         </aside>
+         <!--Fim conteúdo lateral-->
+
+      </div>
+      <!--Fim área principal-->
+
+   </div>
+   <!--Fim Container-->
 
 </body>
 

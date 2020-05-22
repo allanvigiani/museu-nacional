@@ -21,6 +21,10 @@ a:hover {
 /*-----Topo-----*/
 /*Logo*/
 
+#logo h1 {
+   float: left;
+}
+
 #logo a {
    width: 248px;
    height: 21px;
@@ -58,3 +62,89 @@ nav ul li a:hover {
 }
 
 /*-----Fim topo-----*/
+
+/*Conteúdo*/
+
+#conteudo {
+   width: 710px;
+   float: left;
+   border-radius: 2px;
+}
+
+aside {
+   width: 350px;
+   float: right;
+   padding-bottom: 30px;
+   margin-bottom: 30px;
+   background: #ebe7dd;
+   border-radius: 2px;
+}
+
+section#visita {
+   background: #cdc8b1;
+   padding: 10px 27px 27px 27px;
+   margin-top: 10px;
+   border-radius: 2px;
+}
+
+section#visita h4, h4 {
+   color: #86521a;
+   text-transform: uppercase;
+   padding-bottom: 3px;
+   margin-bottom: 10px;
+}
+
+/*Fim Conteúdo*/
+
+/*Formulários*/
+
+input {
+   width: 125px;
+   height: 20px;
+   background: #ebe7dd;
+   font-size: 1em;
+}
+
+input.botao {
+   border: 1px solid #ada484;
+   background: #9b9271;
+   border-radius: 2px;
+   color: white;
+   width: 70%;
+   height: 30px;
+   font-size: 1.2em;
+   margin-top: 10px;
+   margin-left: 45px;
+}
+
+fieldset {
+   border: none;
+}
+
+legend {
+   display: none;
+}
+
+/*Fim Formulários*/
+
+/*Imagens*/
+
+img.galeria {
+   width: 93px;
+   height: 93px;
+   border-radius: 2px;
+}
+
+section#galeria h4 {
+   margin-left: 27px;
+}
+
+section#galeria a {
+   display: block;
+   background: url('imagens/fundo-foto.png') no-repeat;
+   float: left;
+   padding: 20px 14px 16px 16px;
+   margin: 10px 10px 10px 30px;
+}
+
+/*Fim Imagens*/
